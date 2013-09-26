@@ -33,6 +33,13 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+  
+	<repositories>
+		<repository>
+			<id>repo-zmc</id>
+			<url>http://repo.zephyr-mc.com/content/groups/public</url>
+		</repository>
+	</repositories>
   <dependencies>
      <dependency>
         <groupId>net.md-5</groupId>
