@@ -7,7 +7,7 @@
   </parent>
   <groupId>net.md-5</groupId>
   <artifactId>ForgeMod</artifactId>
-  <version>1.6.2-9.10.0-SNAPSHOT</version> <!-- ${minecraft.version}-${forge.mainversion}-SNAPSHOT -->
+  <version>1.6.2-9.10.1-SNAPSHOT</version> <!-- ${minecraft.version}-${forge.mainversion}-SNAPSHOT -->
   <name>ForgeMod</name>
   <packaging>pom</packaging>
   <url>https://github.com/agaricusb/ForgeMod</url>
@@ -16,7 +16,7 @@
     <minecraft.version>1.6.2</minecraft.version>
     <forge.majorversion>9</forge.majorversion>
     <forge.minorversion>10</forge.minorversion>
-    <forge.revisionversion>0</forge.revisionversion>
+    <forge.revisionversion>1</forge.revisionversion>
     <forge.mainversion>${forge.majorversion}.${forge.minorversion}.${forge.revisionversion}</forge.mainversion>
     <forgeapi.version>${minecraft.version}-${forge.mainversion}-SNAPSHOT</forgeapi.version>
     <reobf.mappings>https://raw.github.com/agaricusb/MinecraftRemapping/8ca7ba25dfd67eae43b3c73d02603ff6c085a6d7/1.6.2/pkgmcp2numpkg.srg</reobf.mappings>
@@ -78,6 +78,16 @@
         <groupId>org.scala-lang</groupId>
         <artifactId>scala-library</artifactId>
         <version>2.10.1</version>
+    </dependency>
+    <dependency>
+      <groupId>net.minecraft.launchwrapper</groupId>
+      <artifactId>launchwrapper</artifactId>
+      <version>1.3</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.jopt-simple</groupId>
+      <artifactId>jopt-simple</artifactId>
+      <version>4.5</version>
     </dependency>
   </dependencies>
   <build>
